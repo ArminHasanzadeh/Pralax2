@@ -1,0 +1,61 @@
+.Master_Box {
+    > ul {
+        > li {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            flex-direction: column;
+
+            > figure {
+                display: flex;
+                width: 100%;
+                gap: 15px;
+
+                > img {
+                    margin-top: 20px;
+                    object-fit: cover;
+                    width: 100px;
+                    height: 80px;
+                    opacity: 0;
+                    transition: all 0.2s linear;
+                    transform: scale(0.9);
+
+                    &:nth-of-type(2) {
+                        transition-delay: 0.1s;
+                    }
+
+                    &:nth-of-type(3) {
+                        transition-delay: 0.2s;
+                    }
+                }
+
+                > p {
+                    text-align: center;
+                    font-size: 5rem;
+                    width: 60%;
+                }
+            }
+
+            > span {
+                transition: 0.4s linear;
+                width: 10%;
+                border-color: rgba(184, 184, 184, 0.596);
+            }
+
+            &:hover {
+                > span {
+                    width: 100%;
+                    border-bottom: 1px solid rgba(184, 184, 184, 0.596);
+                }
+
+                figure {
+                    > img {
+                        opacity: 1;
+                        transform: scale(1);
+                    }
+                }
+            }
+        }
+    }
+}
