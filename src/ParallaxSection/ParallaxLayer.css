@@ -1,61 +1,90 @@
 .Master_Box {
     > ul {
-        > li {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            flex-direction: column;
-
-            > figure {
-                display: flex;
-                width: 100%;
-                gap: 15px;
-
-                > img {
-                    margin-top: 20px;
-                    object-fit: cover;
-                    width: 100px;
-                    height: 80px;
-                    opacity: 0;
-                    transition: all 0.2s linear;
-                    transform: scale(0.9);
-
-                    &:nth-of-type(2) {
-                        transition-delay: 0.1s;
-                    }
-
-                    &:nth-of-type(3) {
-                        transition-delay: 0.2s;
-                    }
-                }
-
-                > p {
-                    text-align: center;
-                    font-size: 5rem;
-                    width: 60%;
-                }
+      > li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+  
+        > figure {
+          display: flex;
+          width: 100%;
+          gap: 15px;
+  
+          > img {
+            margin-top: 20px;
+            object-fit: cover;
+            width: 100px;
+            height: 80px;
+            opacity: 0;
+            transition: all 0.2s linear;
+            transform: scale(0.9);
+  
+            &:nth-of-type(2) {
+              transition-delay: 0.1s;
             }
-
-            > span {
-                transition: 0.4s linear;
-                width: 10%;
-                border-color: rgba(184, 184, 184, 0.596);
+  
+            &:nth-of-type(3) {
+              transition-delay: 0.2s;
             }
-
-            &:hover {
-                > span {
-                    width: 100%;
-                    border-bottom: 1px solid rgba(184, 184, 184, 0.596);
-                }
-
-                figure {
-                    > img {
-                        opacity: 1;
-                        transform: scale(1);
-                    }
-                }
-            }
+          }
+  
+          > p {
+            text-align: center;
+            font-size: 5rem;
+            width: 60%;
+          }
         }
+  
+        > span {
+          transition: 0.4s linear;
+          visibility: hidden;
+          width: 10%;
+          border-color: rgba(184, 184, 184, 0.596);
+        }
+  
+        &:hover {
+          > span {
+            width: 100%;
+            visibility: visible;
+            border-bottom: 1px solid rgba(184, 184, 184, 0.596);
+          }
+  
+          figure {
+            > img {
+              opacity: 1;
+              transform: scale(1);
+            }
+          }
+        }
+      }
     }
-}
+  }
+  @media (max-width: 640px) {
+    .Master_Box > ul > li > figure {
+      gap: 10px;
+      flex-direction: row; /* تغییر اصلی اینه */
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .Master_Box > ul > li > figure > img {
+      width: 60px;
+      height: 50px;
+      margin-top: 10px;
+    }
+  
+    .Master_Box > ul > li > figure > p {
+      font-size: 1.5rem;
+      width: auto;
+      white-space: nowrap;
+    }
+  
+    .Master_Box > ul > li > span {
+      width: 30%;
+    }
+  }
+  
+  
+  
