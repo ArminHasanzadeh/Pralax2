@@ -1,24 +1,7 @@
 .svgtag{
     transform: translateX(10vw);
 }
-.Hamberger{
-    border-radius: 100%;
-   
 
-}
-.cross1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transform: rotate(90deg) translateX(5px) translateY(-6px);
-}
-.cross2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transform: rotate(90deg) translateX(-3px) translateY(-0px);
-
-}
 .LogoMc{
     
     position: relative;

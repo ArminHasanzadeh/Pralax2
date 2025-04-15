@@ -82,7 +82,7 @@ const ParallaxLayer = ({ scrollY }) => {
             }}
             onClick={isFullscreen ? handleExitFullscreen : handlePlayClick}
           >
-            <source src="/McALPINE.mp4" type="video/mp4" />
+            <source src="/file.mp4" type="video/mp4" />
           </video>
         </div>
 
@@ -91,7 +91,7 @@ const ParallaxLayer = ({ scrollY }) => {
         </div>
       </div>
 
-      <div className="w-full h-auto mt-52 flex justify-center items-center Master_Box px-4 sm:px-0">
+      <div className="w-full h-auto mt-44 flex justify-center items-center Master_Box px-4 sm:px-0">
         <ul className="flex flex-col w-[80%] h-auto justify-center items-center">
           <li>
             <span></span>
