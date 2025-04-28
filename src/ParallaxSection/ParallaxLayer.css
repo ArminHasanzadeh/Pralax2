@@ -64,7 +64,7 @@
   @media (max-width: 640px) {
     .Master_Box > ul > li > figure {
       gap: 10px;
-      flex-direction: row; /* تغییر اصلی اینه */
+      flex-direction: row; 
       align-items: center;
       justify-content: center;
     }
