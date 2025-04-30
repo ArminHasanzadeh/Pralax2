@@ -53,7 +53,7 @@ const ParallaxLayer = ({ scrollY }) => {
 
   return (
     <div
-      className="relative w-full bg-white shadow-lg flex flex-col h-auto"
+      className="relative w-full bg-white shadow-lg flex flex-col h-auto pb-80"
       style={{
         marginTop: "90vh",
         transform: `scale(${scale})`,
@@ -177,6 +177,60 @@ const ParallaxLayer = ({ scrollY }) => {
             <span></span>
           </li>
 
+          <li>
+            <span></span>
+            <figure className="flex items-center gap-3 relative  my-4">
+              <img
+                src={APic1}
+                alt=""
+                className="w-[70px] sm:w-[100px] h-[60px] sm:h-[80px] object-cover"
+              />
+              <img
+                src={APic2}
+                alt=""
+                className="w-[70px] sm:w-[100px] h-[60px] sm:h-[80px] object-cover"
+              />
+              <img
+                src={APic3}
+                alt=""
+                className="w-[70px] sm:w-[100px] h-[60px] sm:h-[80px] object-cover"
+              />
+              <p className="relative text-center text-xl sm:text-5xl">
+                Goodness
+                <span className="relative inline-block">
+                  s<sup className="absolute -top-6 left-1 text-xs">IV</sup>
+                </span>
+              </p>
+            </figure>
+            <span></span>
+          </li>
+          <li>
+            <span></span>
+            <figure className="flex items-center gap-3 relative  my-4">
+              <img
+                src={APic1}
+                alt=""
+                className="w-[70px] sm:w-[100px] h-[60px] sm:h-[80px] object-cover"
+              />
+              <img
+                src={APic2}
+                alt=""
+                className="w-[70px] sm:w-[100px] h-[60px] sm:h-[80px] object-cover"
+              />
+              <img
+                src={APic3}
+                alt=""
+                className="w-[70px] sm:w-[100px] h-[60px] sm:h-[80px] object-cover"
+              />
+              <p className="relative text-center text-xl sm:text-5xl">
+                Goodness
+                <span className="relative inline-block">
+                  s<sup className="absolute -top-6 left-1 text-xs">IV</sup>
+                </span>
+              </p>
+            </figure>
+            <span></span>
+          </li>
           <li>
             <span></span>
             <figure className="flex items-center gap-3 relative  my-4">

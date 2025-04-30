@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import ParallaxLayer from './ParallaxSection/ParallaxLayer';
 import Background from './Background/Background';
 import Headers from './Header/Headers';
+import Footer from './Footer/Footer';
 
 function App() {
   const [scrollY, setScrollY] = useState(0);
@@ -20,6 +21,7 @@ function App() {
       <Background />
       <Headers />
       <ParallaxLayer scrollY={scrollY} />
+      <Footer />
     </>
   );
 }

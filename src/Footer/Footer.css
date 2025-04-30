@@ -1,0 +1,45 @@
+.MyNavFooter{
+    &:hover{
+        color: rgb(157, 155, 157);
+    }
+      >p{
+          transition: 0.3s;
+          
+          
+        &:hover{
+            color: white; 
+        }
+    }
+  }
+  .DirectNavFooter{
+    
+    >div{
+        overflow: hidden;
+        
+        >p{
+            width: fit-content;
+            
+            &::after{
+                content:"" ;
+                display: flex;
+                border-bottom: 1px solid white;
+                transform: translateX(-90px);
+                transition: 0.5s;
+               
+                
+            }
+            &:hover{
+               &::after{
+                content: "";
+                transform: translateX(0px);
+               }
+            }
+        }
+    }
+  }
+  .DirectNavFooter2{
+    border-top: 1px solid white;
+  }
+  .MasterFooter{
+    background-color: rgb(61, 60, 68);
+  }
