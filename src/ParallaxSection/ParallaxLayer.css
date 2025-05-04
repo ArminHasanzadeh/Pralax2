@@ -1,6 +1,7 @@
 .Master_Box {
-    > ul {
+    > ul {     
       > li {
+        transform: translateX(-50px) !important;
         display: flex;
         justify-content: center;
         align-items: center;

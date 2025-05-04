@@ -63,11 +63,23 @@ body {
     transform: translateX(0);   
   }
   .MyNav{
+    border-left: 1px solid rgb(108, 108, 112);
     &:hover{
         color: rgb(157, 155, 157);
+        
     }
       >p{
           transition: 0.3s;
+         width: fit-content;
+         cursor: pointer;
+         border-left: 1px solid rgba(255, 255, 255, 0);
+         &::before{
+            content: "";
+
+            border-left: 1px solid rgba(255, 255, 255, 0);
+            transform: translateX(-50px) !important;
+            margin-right: 20px;
+         }
           
           
         &:hover{
@@ -81,11 +93,13 @@ body {
     }
   }
   .DirectNav{
-   
+    border-left: 1px solid rgb(108, 108, 112);
     >div{
         overflow: hidden;
+        margin-left: 20px ; 
         >p{
             width: fit-content;
+            
             
             &::after{
                 content:"" ;
@@ -101,6 +115,29 @@ body {
                 content: "";
                 transform: translateX(0px);
                }
+            }
+        }
+        >div{
+            width: fit-content !important;
+            >a{
+                width: fit-content ;
+                
+                
+                &::after{
+                    content:"" ;
+                    display: flex;
+                    border-bottom: 1px solid white;
+                    transform: translateX(-90px);
+                    transition: 0.5s;
+                   
+                    
+                }
+                &:hover{
+                   &::after{
+                    content: "";
+                    transform: translateX(0px);
+                   }
+                }
             }
         }
     }

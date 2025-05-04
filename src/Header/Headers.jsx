@@ -46,8 +46,8 @@ function Header(props) {
         <div className="BoxNav1 w-[30%] h-full flex-col max-sm:hidden"></div>
 
         {/* BoxNav2 تو موبایل flex-col بشه */}
-        <div className="BoxNav2 w-[70%] h-[95%] border-l flex flex-col justify-between items-start max-sm:w-full max-sm:border-0 max-sm:px-5 max-sm:justify-end">
-          <div className="MyNav w-auto h-[50%] text-6xl text-white overflow-hidden max-sm:text-2xl max-sm:h-auto max-sm:mb-5">
+        <div className="BoxNav2 w-[70%] h-[95%] flex flex-col justify-between items-start max-sm:w-full max-sm:border-0 max-sm:px-5 max-sm:justify-end ">
+          <div className="MyNav w-auto h-[50%] text-6xl text-white overflow-hidden max-sm:text-2xl max-sm:h-auto max-sm:mb-5 ">
             <p className={`${open ? "-translate-x-0" : "-translate-x-50"}`}>
               Project
             </p>
@@ -57,15 +57,15 @@ function Header(props) {
             <p>Furniture Lines</p>
           </div>
 
-          <div className="DirectNav w-full h-[50%] flex justify-end items-end ml-3 max-sm:w-full max-sm:flex-col max-sm:items-start max-sm:gap-3">
+          <div className="DirectNav w-full h-[50%] flex justify-end items-end  max-sm:w-full max-sm:flex-col max-sm:items-start max-sm:gap-3">
             <div className="w-[50%] h-[25%] text-white text-base max-sm:w-full max-sm:text-xs">
-              <p>Instagram</p>
-              <p>FaceBook</p>
+            <div> <a href={"https://www.instagram.com/armin__hasnzadeh?igsh=cndnejBxcXo5cTh6"}>Instagram</a></div>
+            <div>  <a href={"https://github.com/ArminHasanzadeh?tab=overview&from=2025-05-01&to=2025-05-03"}>Github</a></div>
               <p>09152087822</p>
             </div>
             <div className="w-[50%] h-[25%] text-white text-base max-sm:w-full max-sm:text-xs">
-              <p>Instagram</p>
-              <p>FaceBook</p>
+              <div> <a href={"https://www.instagram.com/armin__hasnzadeh?igsh=cndnejBxcXo5cTh6"}>Instagram</a></div>
+              <div>  <a href={"https://github.com/ArminHasanzadeh?tab=overview&from=2025-05-01&to=2025-05-03"}>Github</a></div>
               <p>09152087822</p>
             </div>
           </div>

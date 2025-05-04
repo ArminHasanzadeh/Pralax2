@@ -50,19 +50,19 @@ function Footer(props) {
         </div>
         <div className="DirectNavFooter w-full h-[25%] gap-72 flex justify-end items-end ml-3 max-sm:w-full max-sm:flex-col max-sm:items-start max-sm:gap-3">
           <div className="w-[50%] h-[50%] text-white text-base max-sm:w-full max-sm:text-xs">
-            <p>Instagram</p>
-            <p>FaceBook</p>
+          <div> <a href={"https://www.instagram.com/armin__hasnzadeh?igsh=cndnejBxcXo5cTh6"}>Instagram</a></div>
+          <div>  <a href={"https://github.com/ArminHasanzadeh?tab=overview&from=2025-05-01&to=2025-05-03"}>Github</a></div>
             <p>09152087822</p>
           </div>
           <div className="w-[50%] h-[50%] text-white text-base max-sm:w-full max-sm:text-xs">
-            <p>Instagram</p>
-            <p>FaceBook</p>
+          <div> <a href={"https://www.instagram.com/armin__hasnzadeh?igsh=cndnejBxcXo5cTh6"}>Instagram</a></div>
+          <div>  <a href={"https://github.com/ArminHasanzadeh?tab=overview&from=2025-05-01&to=2025-05-03"}>Github</a></div>
             <p>09152087822</p>
           </div>
         </div>
         <div className="w-[150%] h-[15%] ml-3 mt-10 flex justify-center items-strat text-white flex-col DirectNavFooter2   items-start  max-sm:w-full max-sm:flex-col max-sm:items-start max-sm:gap-3">
-           <p>Instagram</p>
-            <p>FaceBook</p>
+           <p>ArminHsnzadeh@Gmail.com</p>
+           
         </div>
       </div>
     </footer>

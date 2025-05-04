@@ -15,6 +15,7 @@
     
     >div{
         overflow: hidden;
+
         
         >p{
             width: fit-content;
@@ -23,7 +24,7 @@
                 content:"" ;
                 display: flex;
                 border-bottom: 1px solid white;
-                transform: translateX(-90px);
+                transform: translateX(-110px);
                 transition: 0.5s;
                
                 
@@ -35,6 +36,30 @@
                }
             }
         }
+        >div{
+          width: fit-content;
+          height: fit-content;
+          >a{
+              width: fit-content ;
+              
+              
+              &::after{
+                  content:"" ;
+                  display: flex;
+                  border-bottom: 1px solid white;
+                  transform: translateX(-90px);
+                  transition: 0.5s;
+                 
+                  
+              }
+              &:hover{
+                 &::after{
+                  content: "";
+                  transform: translateX(0px);
+                 }
+              }
+          }
+      }
     }
   }
   .DirectNavFooter2{

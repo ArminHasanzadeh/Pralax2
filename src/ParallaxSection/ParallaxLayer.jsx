@@ -223,9 +223,9 @@ const ParallaxLayer = ({ scrollY }) => {
                 className="w-[70px] sm:w-[100px] h-[60px] sm:h-[80px] object-cover"
               />
               <p className="relative text-center text-xl sm:text-5xl">
-                Goodness
+                Radiance
                 <span className="relative inline-block">
-                  s<sup className="absolute -top-6 left-1 text-xs">IV</sup>
+                  s<sup className="absolute -top-6 left-1 text-xs">V</sup>
                 </span>
               </p>
             </figure>
@@ -250,9 +250,360 @@ const ParallaxLayer = ({ scrollY }) => {
                 className="w-[70px] sm:w-[100px] h-[60px] sm:h-[80px] object-cover"
               />
               <p className="relative text-center text-xl sm:text-5xl">
-                Goodness
+                joy
                 <span className="relative inline-block">
-                  s<sup className="absolute -top-6 left-1 text-xs">IV</sup>
+                  s<sup className="absolute -top-6 left-1 text-xs">VI</sup>
+                </span>
+              </p>
+            </figure>
+            <span></span>
+          </li>
+          <li>
+            <span></span>
+            <figure className="flex items-center gap-3 relative  my-4">
+              <img
+                src={APic1}
+                alt=""
+                className="w-[70px] sm:w-[100px] h-[60px] sm:h-[80px] object-cover"
+              />
+              <img
+                src={APic2}
+                alt=""
+                className="w-[70px] sm:w-[100px] h-[60px] sm:h-[80px] object-cover"
+              />
+              <img
+                src={APic3}
+                alt=""
+                className="w-[70px] sm:w-[100px] h-[60px] sm:h-[80px] object-cover"
+              />
+              <p className="relative text-center text-xl sm:text-5xl">
+                Boundless
+                <span className="relative inline-block">
+                  s<sup className="absolute -top-6 left-1 text-xs">VII</sup>
+                </span>
+              </p>
+            </figure>
+            <span></span>
+          </li>
+          <li>
+            <span></span>
+            <figure className="flex items-center gap-3 relative  my-4">
+              <img
+                src={APic1}
+                alt=""
+                className="w-[70px] sm:w-[100px] h-[60px] sm:h-[80px] object-cover"
+              />
+              <img
+                src={APic2}
+                alt=""
+                className="w-[70px] sm:w-[100px] h-[60px] sm:h-[80px] object-cover"
+              />
+              <img
+                src={APic3}
+                alt=""
+                className="w-[70px] sm:w-[100px] h-[60px] sm:h-[80px] object-cover"
+              />
+              <p className="relative text-center text-xl sm:text-5xl">
+                Manse
+                <span className="relative inline-block">
+                  s<sup className="absolute -top-6 left-1 text-xs">VIII</sup>
+                </span>
+              </p>
+            </figure>
+            <span></span>
+          </li>
+          <li>
+            <span></span>
+            <figure className="flex items-center gap-3 relative  my-4">
+              <img
+                src={APic1}
+                alt=""
+                className="w-[70px] sm:w-[100px] h-[60px] sm:h-[80px] object-cover"
+              />
+              <img
+                src={APic2}
+                alt=""
+                className="w-[70px] sm:w-[100px] h-[60px] sm:h-[80px] object-cover"
+              />
+              <img
+                src={APic3}
+                alt=""
+                className="w-[70px] sm:w-[100px] h-[60px] sm:h-[80px] object-cover"
+              />
+              <p className="relative text-center text-xl sm:text-5xl">
+                Exuberance
+                <span className="relative inline-block">
+                  s<sup className="absolute -top-6 left-1 text-xs">IX</sup>
+                </span>
+              </p>
+            </figure>
+            <span></span>
+          </li>
+          <li>
+            <span></span>
+            <figure className="flex items-center gap-3 relative  my-4">
+              <img
+                src={APic1}
+                alt=""
+                className="w-[70px] sm:w-[100px] h-[60px] sm:h-[80px] object-cover"
+              />
+              <img
+                src={APic2}
+                alt=""
+                className="w-[70px] sm:w-[100px] h-[60px] sm:h-[80px] object-cover"
+              />
+              <img
+                src={APic3}
+                alt=""
+                className="w-[70px] sm:w-[100px] h-[60px] sm:h-[80px] object-cover"
+              />
+              <p className="relative text-center text-xl sm:text-5xl">
+                Camelot
+                <span className="relative inline-block">
+                  s<sup className="absolute -top-6 left-1 text-xs">X</sup>
+                </span>
+              </p>
+            </figure>
+            <span></span>
+          </li>
+          <li>
+            <span></span>
+            <figure className="flex items-center gap-3 relative  my-4">
+              <img
+                src={APic1}
+                alt=""
+                className="w-[70px] sm:w-[100px] h-[60px] sm:h-[80px] object-cover"
+              />
+              <img
+                src={APic2}
+                alt=""
+                className="w-[70px] sm:w-[100px] h-[60px] sm:h-[80px] object-cover"
+              />
+              <img
+                src={APic3}
+                alt=""
+                className="w-[70px] sm:w-[100px] h-[60px] sm:h-[80px] object-cover"
+              />
+              <p className="relative text-center text-xl sm:text-5xl">
+                Intrigue
+                <span className="relative inline-block">
+                  s<sup className="absolute -top-6 left-1 text-xs">XI</sup>
+                </span>
+              </p>
+            </figure>
+            <span></span>
+          </li>
+          <li>
+            <span></span>
+            <figure className="flex items-center gap-3 relative  my-4">
+              <img
+                src={APic1}
+                alt=""
+                className="w-[70px] sm:w-[100px] h-[60px] sm:h-[80px] object-cover"
+              />
+              <img
+                src={APic2}
+                alt=""
+                className="w-[70px] sm:w-[100px] h-[60px] sm:h-[80px] object-cover"
+              />
+              <img
+                src={APic3}
+                alt=""
+                className="w-[70px] sm:w-[100px] h-[60px] sm:h-[80px] object-cover"
+              />
+              <p className="relative text-center text-xl sm:text-5xl">
+                Lantern
+                <span className="relative inline-block">
+                  s<sup className="absolute -top-6 left-1 text-xs">XII</sup>
+                </span>
+              </p>
+            </figure>
+            <span></span>
+          </li>
+          <li>
+            <span></span>
+            <figure className="flex items-center gap-3 relative  my-4">
+              <img
+                src={APic1}
+                alt=""
+                className="w-[70px] sm:w-[100px] h-[60px] sm:h-[80px] object-cover"
+              />
+              <img
+                src={APic2}
+                alt=""
+                className="w-[70px] sm:w-[100px] h-[60px] sm:h-[80px] object-cover"
+              />
+              <img
+                src={APic3}
+                alt=""
+                className="w-[70px] sm:w-[100px] h-[60px] sm:h-[80px] object-cover"
+              />
+              <p className="relative text-center text-xl sm:text-5xl">
+                Prospect
+                <span className="relative inline-block">
+                  s<sup className="absolute -top-6 left-1 text-xs">XIII</sup>
+                </span>
+              </p>
+            </figure>
+            <span></span>
+          </li>
+          <li>
+            <span></span>
+            <figure className="flex items-center gap-3 relative  my-4">
+              <img
+                src={APic1}
+                alt=""
+                className="w-[70px] sm:w-[100px] h-[60px] sm:h-[80px] object-cover"
+              />
+              <img
+                src={APic2}
+                alt=""
+                className="w-[70px] sm:w-[100px] h-[60px] sm:h-[80px] object-cover"
+              />
+              <img
+                src={APic3}
+                alt=""
+                className="w-[70px] sm:w-[100px] h-[60px] sm:h-[80px] object-cover"
+              />
+              <p className="relative text-center text-xl sm:text-5xl">
+                Palace
+                <span className="relative inline-block">
+                  s<sup className="absolute -top-6 left-1 text-xs">XIV</sup>
+                </span>
+              </p>
+            </figure>
+            <span></span>
+          </li>
+          <li>
+            <span></span>
+            <figure className="flex items-center gap-3 relative  my-4">
+              <img
+                src={APic1}
+                alt=""
+                className="w-[70px] sm:w-[100px] h-[60px] sm:h-[80px] object-cover"
+              />
+              <img
+                src={APic2}
+                alt=""
+                className="w-[70px] sm:w-[100px] h-[60px] sm:h-[80px] object-cover"
+              />
+              <img
+                src={APic3}
+                alt=""
+                className="w-[70px] sm:w-[100px] h-[60px] sm:h-[80px] object-cover"
+              />
+              <p className="relative text-center text-xl sm:text-5xl">
+                Heart
+                <span className="relative inline-block">
+                  s<sup className="absolute -top-6 left-1 text-xs">XV</sup>
+                </span>
+              </p>
+            </figure>
+            <span></span>
+          </li>
+          <li>
+            <span></span>
+            <figure className="flex items-center gap-3 relative  my-4">
+              <img
+                src={APic1}
+                alt=""
+                className="w-[70px] sm:w-[100px] h-[60px] sm:h-[80px] object-cover"
+              />
+              <img
+                src={APic2}
+                alt=""
+                className="w-[70px] sm:w-[100px] h-[60px] sm:h-[80px] object-cover"
+              />
+              <img
+                src={APic3}
+                alt=""
+                className="w-[70px] sm:w-[100px] h-[60px] sm:h-[80px] object-cover"
+              />
+              <p className="relative text-center text-xl sm:text-5xl">
+                Cape Dutch
+                <span className="relative inline-block">
+                  s<sup className="absolute -top-6 left-1 text-xs">XVI</sup>
+                </span>
+              </p>
+            </figure>
+            <span></span>
+          </li>
+          <li>
+            <span></span>
+            <figure className="flex items-center gap-3 relative  my-4">
+              <img
+                src={APic1}
+                alt=""
+                className="w-[70px] sm:w-[100px] h-[60px] sm:h-[80px] object-cover"
+              />
+              <img
+                src={APic2}
+                alt=""
+                className="w-[70px] sm:w-[100px] h-[60px] sm:h-[80px] object-cover"
+              />
+              <img
+                src={APic3}
+                alt=""
+                className="w-[70px] sm:w-[100px] h-[60px] sm:h-[80px] object-cover"
+              />
+              <p className="relative text-center text-xl sm:text-5xl">
+                Place
+                <span className="relative inline-block">
+                  s<sup className="absolute -top-6 left-1 text-xs">XVII</sup>
+                </span>
+              </p>
+            </figure>
+            <span></span>
+          </li>
+          <li>
+            <span></span>
+            <figure className="flex items-center gap-3 relative  my-4">
+              <img
+                src={APic1}
+                alt=""
+                className="w-[70px] sm:w-[100px] h-[60px] sm:h-[80px] object-cover"
+              />
+              <img
+                src={APic2}
+                alt=""
+                className="w-[70px] sm:w-[100px] h-[60px] sm:h-[80px] object-cover"
+              />
+              <img
+                src={APic3}
+                alt=""
+                className="w-[70px] sm:w-[100px] h-[60px] sm:h-[80px] object-cover"
+              />
+              <p className="relative text-center text-xl sm:text-5xl">
+                Harmonious
+                <span className="relative inline-block">
+                  s<sup className="absolute -top-6 left-1 text-xs">XVIII</sup>
+                </span>
+              </p>
+            </figure>
+            <span></span>
+          </li>
+          <li>
+            <span></span>
+            <figure className="flex items-center gap-3 relative  my-4">
+              <img
+                src={APic1}
+                alt=""
+                className="w-[70px] sm:w-[100px] h-[60px] sm:h-[80px] object-cover"
+              />
+              <img
+                src={APic2}
+                alt=""
+                className="w-[70px] sm:w-[100px] h-[60px] sm:h-[80px] object-cover"
+              />
+              <img
+                src={APic3}
+                alt=""
+                className="w-[70px] sm:w-[100px] h-[60px] sm:h-[80px] object-cover"
+              />
+              <p className="relative text-center text-xl sm:text-5xl">
+                History
+                <span className="relative inline-block">
+                  s<sup className="absolute -top-6 left-1 text-xs">XIX</sup>
                 </span>
               </p>
             </figure>
